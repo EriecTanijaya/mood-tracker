@@ -1,0 +1,20 @@
+{
+  "projectName": "mood-tracker",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "npm",
+  "includeExamples": false,
+  "tailwind": true,
+  "addOnOptions": {
+    "drizzle": {
+      "database": "sqlite"
+    }
+  },
+  "envVarValues": {},
+  "git": false,
+  "install": false,
+  "routerOnly": false,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": ["cloudflare", "compiler", "drizzle", "form", "shadcn", "table", "tanstack-query"]
+}

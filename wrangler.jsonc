@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mood-tracker",
+  "compatibility_date": "2025-09-02",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "d1_databases": [
+    {
+      "binding": "mood_tracker_db",
+      "database_name": "mood-tracker",
+      "database_id": "4eea4d96-78d9-4082-9a08-9ed7bb4ffd40",
+    },
+  ],
+}
